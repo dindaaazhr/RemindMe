@@ -1,0 +1,701 @@
+
+/* buat ganti bagian how to custom : 
+https://cdn.shopify.com/s/files/1/0589/6880/1464/files/store.jpg?v=1635159272 */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');/* rey */
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(156, 101, 55, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 60px;
+  margin-left: 5px;
+  margin-top: 10px;
+  display: inline-block;
+
+}
+
+.header-left {
+  float: left;
+ 
+
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(77, 67, 67, 0.3);
+}
+
+/* For Tablets */
+@media all and (max-width: 1000px) {
+
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  span.menu-icon {
+    display: block;
+  }
+}
+
+
+
+/* putu */
+.top-wrapper{
+  background-image:url(https://images.unsplash.com/photo-1528938102132-4a9276b8e320?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+* {
+  box-sizing: border-box;
+}
+ 
+h1{
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 15px;
+  font-size: 90px;
+  align-items: center;
+  position: absolute;
+  margin-left:310px;
+  margin-top:280px;
+  color: transparent;
+  -webkit-text-stroke: 0.1px #fff;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+
+@keyframes back {
+  100%{
+    background-position:2000px 0;
+  }
+}
+
+
+.container-arya h3 {
+  font-size: 30px;
+  position: absolute;
+  color: #a68a4b;
+  margin-top: 390px;
+  margin-left: 500px;
+
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  background: linear-gradient(90deg, #a68a4b, #a68a4b, #a68a4b);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -300%;
+  }
+  100% {
+    background-position-x: 300%;
+  }
+}
+
+
+@media only screen and(max-width: 1000px){
+ .container-arya h3 {
+      color: #f7f6f4;
+    }
+  .container-arya {
+    text-align: left;
+  }
+}
+
+
+/* amira */
+body {
+  margin: 0;
+  font-family: "Cabin", sans-serif;
+  font-weight: 200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.search-wrapper {
+  background: #7F4F24;
+  padding-bottom: 20px;
+}
+
+.search-wrapper h2 {
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #FAF0DC;
+  float: left;
+  width: 80%;
+  background: #FAF0DC;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+form.example button {
+  float: left;
+  width: 17%;
+  padding: 10px;
+  background: #D5B895;
+  color: white;
+  font-size: 20px;
+  border: 1px solid #D5B895;
+  border-left: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+form.example button:hover {
+  background: #C19770;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.content-wrapper {
+  text-align: center;
+  padding: 15px;
+}
+
+.content-wrapper h2 {
+  padding: 30px;
+  color: #582F0E;
+}
+
+.item {
+  position: relative;
+  float: left;
+  transition: all 0.5s;
+  width: 33.3%;
+}
+
+.item p {
+  padding: 15px;
+  top: 150px;
+  width: 100%;
+  color: #582F0E;
+  font-size: 25px;
+}
+
+.item img {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.item:hover {
+  opacity: 0.5;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.item:hover .overlay {
+  opacity: 1;
+}
+
+.btn {
+  background-color: #7F4F24;
+  border: none;
+  color: white;
+  padding: 20px 25px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #582F0E;
+}
+
+.sale-wrapper {
+  text-align: center;
+}
+
+.sale {
+  position: relative;
+  float: left;
+  transition: all 0.5s;
+  margin: 30px 0 50px 0;
+}
+
+.sale-wrapper img {
+  width: 1170px;
+  height: 600px;
+  cursor: pointer;
+}
+
+.sale-wrapper p {
+  font-size: 100px;
+  position: absolute;
+  top: 170px;
+  width: 100%;
+  color: #582F0E;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sale:hover {
+  opacity: 0.5;
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .container {
+  width: 650px;
+  }
+
+  .search-wrapper {
+  background: #7F4F24;
+  padding: 0 10px;
+  }
+  
+  form.example input[type=text] {
+    font-size: 15px;
+  }
+
+  form.example button {
+    font-size: 18px;
+  }
+
+  .content-wrapper {
+    padding: 10px;
+  }
+
+  .content-wrapper h2 {
+    padding: 20px;
+  }
+
+  .item img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .item p {
+  font-size: 20px;
+  }
+
+  .overlay {
+    top: 40%;
+  }
+
+  .btn {
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+  .sale {
+    margin: 15px 0;
+  }
+
+  .sale-wrapper img {
+    width: 620px;
+    height: 300px;
+  }
+
+  .sale-wrapper p {
+    font-size: 55px;
+    top: 80px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .container {
+  width: 320px;
+  }
+
+  .search-wrapper {
+  background: #7F4F24;
+  padding: 0 10px;
+  }
+  
+  form.example input[type=text] {
+    font-size: 15px;
+  }
+
+  form.example button {
+    font-size: 18px;
+  }
+
+  .content-wrapper {
+    padding: 10px;
+  }
+
+  .content-wrapper h2 {
+    padding: 20px;
+  }
+
+  .item {
+    float: left;
+    width: 33.3%;
+  }
+
+  .item p {
+    padding: 7px;
+    font-size: 17px;
+  }
+
+  .item img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .overlay {
+    top: 37%;
+  }
+
+  .btn {
+    color: white;
+    padding: 7px 10px;
+    font-size: 10px;
+  }
+
+  .sale {
+    margin: 10px 0;
+  }
+
+  .sale-wrapper img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .sale-wrapper p {
+    font-size: 30px;
+    top: 70px;
+  }
+  
+}
+
+/* dinda */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+/* 
+.testimonial {
+  font-family: "Cabin", sans-serif;
+  background-color: rgb(245, 230, 211);
+  margin-top: 60px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-bottom: 0px;
+  display: inline-block;
+  width: 100%;
+}
+.testimonial .col-3{
+  position: relative;
+  text-align: center;
+  padding: 30px 30px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+  float: left;
+  transition: all 0.5s;
+  width: 30%;
+  margin: 20px 0px 20px 30px;
+}
+.testimonial .col-3 img{
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.testimonial .col-3:hover{
+  transform: translateY(-10px);
+} */
+
+.message-wrapper {
+  background-color: rgb(245, 230, 211);
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 60px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-bottom: 0px;
+}
+.message-container {
+  width: 30%;
+  margin: 20px;
+  position:relative;
+  padding: 50px 30px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+  
+  transition: all 0.5s;
+  font-family: "Lucida Grande";
+}
+.message-container img {
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.message-container:hover{
+  transform: translateY(-10px);
+}
+
+/* .message-container .container-message-1 {
+  min-width: 30%;
+
+}
+.message-container .container-message-2 {
+  min-width: 30%;
+  
+}
+.message-container .container-message-3 {
+  min-width: 30%;
+  
+} */
+
+.fa.fa-quote-left {
+  font-size: 30px;
+}
+
+.message-container h3{
+  font-style: italic;
+}
+
+/* Untuk Tablets */
+@media (max-width: 1000px ) {
+
+}
+
+@media only screen and (max-width:700px) {
+
+}
+
+/* Untuk Smartphones */
+@media (max-width: 670px) {
+  
+
+    
+}
+
+
+/* dea */
+footer {
+  background-color: #582F0E;
+  color: #faf0dc;
+    width: 100%;
+    text-align: left;
+    font: 12px sans-serif;
+    padding: 50px 50px 60px 50px;
+    box-sizing: border-box;
+    float: left;
+}
+
+footer a {
+  color: #faf0dc;
+}
+
+.ftr {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+}
+
+.footer-left h3 {
+  font-size: 21px;
+}
+
+.footer-links {
+  font-size: 10px;
+  margin-top: 0px;
+}
+
+.adress, .contact {
+  padding-bottom: 15px;
+}
+
+.keterangan {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.payment {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.payment img {
+  width: 50px;
+  height: 30px;
+}
+
+.follow {
+  margin-top: 15px;
+}
+
+.footer-right p {
+  margin-bottom: 5px;
+}
+
+.footer-icon a {
+  margin-right: 7px;
+  background-color: white;
+  width: 20px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+  color: #582F0E;
+}
+
+@media (max-width: 1000px) {
+  .ftr {
+    width: 50%;
+    margin-bottom: 35px;
+    text-align: left;
+  }
+  
+  .footer-right {
+    width: 90px;
+  }
+}
+  
+@media (max-width: 670px) { 
+  .ftr {
+    width: 100%;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  
+  .footer-left {
+    margin-bottom: 50px;
+  }
+  
+  .payment {
+    display: block;
+    margin: 0 auto;
+  }
+}
